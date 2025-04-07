@@ -26,16 +26,13 @@ Python 3.x – Lightweight and easy to modify.
 🚀 Quick Start
 Clone & Install:
 
-bash
-Copy
-git clone https://github.com/yourusername/vr-steering-simulator.git
-cd vr-steering-simulator
+git clone 
+cd Virtual-Steering
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
-Run the Detector:
+python Steering.py
 
-bash
-Copy
-python main.py
 Calibrate & Play!
 
 Position your hands (or a steering wheel prop) in view of the webcam.
